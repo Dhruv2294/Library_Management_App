@@ -1,0 +1,48 @@
+body{
+  overflow-x: hidden;
+}
+
+.library-background {
+  background-image: url('https://png.pngtree.com/background/20230426/original/pngtree-an-old-library-has-wooden-step-leading-to-stairs-picture-image_2486870.jpg');
+  background-size: cover;
+  background-position: center; 
+  position: relative; 
+  width: 100vw; 
+  height: 400px; 
+  left: 50%; 
+  margin-left: -50vw;
+  margin-bottom: 10px;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.library-text {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0; 
+}
+
+.typo{
+  text-align: center;
+  width: 100%;
+  background-color: #4848eb ;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-top: 50px;
+  color: whitesmoke;
+}
